@@ -1,4 +1,4 @@
-import{s as f,c as k,f as u,a as g}from"./header-75e972c1.js";const r="favoriteCocktails",i=document.querySelector(".add-to-favorite-coctail-list"),h=JSON.parse(localStorage.getItem(r))??[],s=async(t,a)=>{const n=document.querySelector(".add-to-favorite-list");if(t.length===0)n.innerHTML=`
+import{s as f,c as k,f as u,a as g}from"./header-3178d01a.js";const r="favoriteCocktails",i=document.querySelector(".add-to-favorite-coctail-list"),h=JSON.parse(localStorage.getItem(r))??[],s=async(t,a)=>{const n=document.querySelector(".add-to-favorite-list");if(t.length===0)n.innerHTML=`
            <div class="container">
         <div class="block-page favorite-block-page">
           <svg class="icon-rafiki" >
