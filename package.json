@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/Cocktails-Bar/",
+    "build": "vite build --base=/cocktails-Bar/",
     "preview": "vite preview"
   },
   "devDependencies": {
