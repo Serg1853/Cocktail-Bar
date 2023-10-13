@@ -1,0 +1,107 @@
+.ingredient-name {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.dark-theme .ingredient-name {
+    color: #FDFDFF;
+}
+
+.ingredient-type {
+    margin-top: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(36, 36, 36, 0.5);
+}
+
+.dark-theme .ingredient-type {
+    color: rgba(253, 253, 255, 0.50);
+}
+
+.ingredient-type::after {
+    content: '';
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    border: 1px solid rgba(36, 36, 36, 0.1);
+}
+
+.dark-theme .ingredient-type::after {
+    border: 1px solid rgba(253, 253, 255, 0.1);
+}
+
+.ingredient-descr-wrapper {
+    margin-top: 20px;
+    max-height: 100px;
+    overflow-y: scroll;
+}
+
+.ingredient-descr-wrapper::-webkit-scrollbar {
+    width: 8px;
+}
+
+.ingredient-descr-wrapper::-webkit-scrollbar-thumb {
+    background-color: rgba(36, 36, 36, 0.5);
+    border-radius: 4px;
+}
+
+.dark-theme .ingredient-descr-wrapper::-webkit-scrollbar-thumb {
+    background-color: rgba(253, 253, 255, 0.5);
+}
+
+.ingredient-descr-wrapper::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(36, 36, 36, 0.8);
+}
+
+.dark-theme .ingredient-descr-wrapper::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(253, 253, 255, 0.8);
+}
+
+.ingredient-descr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(36, 36, 36, 0.5);
+}
+
+.dark-theme .ingredient-descr {
+    color: rgba(253, 253, 255, 0.50);
+}
+
+.ingredient-characteristic-list {
+    margin-top: 40px;
+    list-style: disc inside;
+}
+
+.ingredient-characteristic-item {
+    padding-left: 8px;
+}
+
+.ingredient-characteristic-item::marker {
+    font-size: 10px;
+    color: rgba(36, 36, 36, 0.8);
+}
+
+.dark-theme .ingredient-characteristic-item::marker {
+    color: rgba(253, 253, 255, 0.80);
+}
+
+.ingredient-characteristic-descr {
+    display: inline;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(36, 36, 36, 0.8);
+}
+
+.dark-theme .ingredient-characteristic-descr {
+    color:rgba(253, 253, 255, 0.80);
+}
+
+@media screen and (min-width: 768px) {
+    .modal-ingredient {
+        min-height: 0;
+    }
+}
